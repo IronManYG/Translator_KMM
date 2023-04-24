@@ -25,6 +25,7 @@ kotlin {
         ios.deploymentTarget = "14.1"
         podfile = project.file("../iosApp/Podfile")
         framework {
+            isStatic = false // it make previews work in Xcode
             baseName = "shared"
         }
     }

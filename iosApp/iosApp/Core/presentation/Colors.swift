@@ -2,8 +2,8 @@
 //  Colors.swift
 //  iosApp
 //
-//  Created by Philipp Lackner on 06.12.22.
-//  Copyright © 2022 orgName. All rights reserved.
+//  Created by Hussain Gaddal on 24/04/2023.
+//  Copyright © 2023 orgName. All rights reserved.
 //
 
 import Foundation
@@ -28,7 +28,7 @@ extension Color {
     static let textBlack = Color(hex: colors.TextBlack)
     static let darkGrey = Color(hex: colors.DarkGrey)
     
-    static let primary = Color(light: .accentViolet, dark: .accentViolet)
+    static let primaryColor = Color(light: .accentViolet, dark: .accentViolet)
     static let background = Color(light: .lightBlueGrey, dark: .darkGrey)
     static let onPrimary = Color(light: .white, dark: .white)
     static let onBackground = Color(light: .textBlack, dark: .white)
