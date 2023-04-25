@@ -52,10 +52,10 @@ struct TranslateTextField_Previews: PreviewProvider {
                 get: { "test" },
                 set: { value in }
             ),
-            toText: "test",
+            toText: nil,
             isTranslating: false,
             fromLanguage: UiLanguage(language: .english, imageName: "english"),
-            toLanguage: UiLanguage(language: .arabic, imageName: "arabic"),
+            toLanguage: UiLanguage(language: .german, imageName: "german"),
             onTranslateEvent: { event in }
         )
     }
