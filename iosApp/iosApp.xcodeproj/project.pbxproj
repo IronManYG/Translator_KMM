@@ -17,6 +17,10 @@
 		B7323D1929F6C3A700ED67AD /* SwapLanguageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323D1829F6C3A700ED67AD /* SwapLanguageButton.swift */; };
 		B7323D1B29F6C3E000ED67AD /* IOSTranslateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323D1A29F6C3E000ED67AD /* IOSTranslateViewModel.swift */; };
 		B7323D1D29F6C40E00ED67AD /* TranslateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323D1C29F6C40E00ED67AD /* TranslateScreen.swift */; };
+		B7323D1F29F7E34D00ED67AD /* GradientSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323D1E29F7E34D00ED67AD /* GradientSurface.swift */; };
+		B7323D2129F7E3C700ED67AD /* LanguageDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323D2029F7E3C700ED67AD /* LanguageDisplay.swift */; };
+		B7323D2329F7E40D00ED67AD /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323D2229F7E40D00ED67AD /* ProgressButton.swift */; };
+		B7323D2529F7E43200ED67AD /* TranslateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7323D2429F7E43200ED67AD /* TranslateTextField.swift */; };
 		B7FC79E229F6B76D005BAD00 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79E129F6B76D005BAD00 /* Colors.swift */; };
 		B7FC79E729F6BDAE005BAD00 /* LanguageDropDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79E629F6BDAE005BAD00 /* LanguageDropDownItem.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +39,10 @@
 		B7323D1829F6C3A700ED67AD /* SwapLanguageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapLanguageButton.swift; sourceTree = "<group>"; };
 		B7323D1A29F6C3E000ED67AD /* IOSTranslateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTranslateViewModel.swift; sourceTree = "<group>"; };
 		B7323D1C29F6C40E00ED67AD /* TranslateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateScreen.swift; sourceTree = "<group>"; };
+		B7323D1E29F7E34D00ED67AD /* GradientSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSurface.swift; sourceTree = "<group>"; };
+		B7323D2029F7E3C700ED67AD /* LanguageDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDisplay.swift; sourceTree = "<group>"; };
+		B7323D2229F7E40D00ED67AD /* ProgressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressButton.swift; sourceTree = "<group>"; };
+		B7323D2429F7E43200ED67AD /* TranslateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateTextField.swift; sourceTree = "<group>"; };
 		B7FC79E129F6B76D005BAD00 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		B7FC79E629F6BDAE005BAD00 /* LanguageDropDownItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDropDownItem.swift; sourceTree = "<group>"; };
 		E3BE5D0F281B119F0AD7EE63 /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.release.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				B7FC79E129F6B76D005BAD00 /* Colors.swift */,
+				B7323D1E29F7E34D00ED67AD /* GradientSurface.swift */,
 			);
 			path = presentation;
 			sourceTree = "<group>";
@@ -142,6 +151,9 @@
 				B7323D1429F6C33000ED67AD /* LanguageDropDown.swift */,
 				B7323D1629F6C38400ED67AD /* SmallLanguageIcon.swift */,
 				B7323D1829F6C3A700ED67AD /* SwapLanguageButton.swift */,
+				B7323D2029F7E3C700ED67AD /* LanguageDisplay.swift */,
+				B7323D2229F7E40D00ED67AD /* ProgressButton.swift */,
+				B7323D2429F7E43200ED67AD /* TranslateTextField.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -287,8 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7323D2329F7E40D00ED67AD /* ProgressButton.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				B7323D1F29F7E34D00ED67AD /* GradientSurface.swift in Sources */,
 				B7FC79E729F6BDAE005BAD00 /* LanguageDropDownItem.swift in Sources */,
+				B7323D2129F7E3C700ED67AD /* LanguageDisplay.swift in Sources */,
 				B7323D1729F6C38400ED67AD /* SmallLanguageIcon.swift in Sources */,
 				B7323D1B29F6C3E000ED67AD /* IOSTranslateViewModel.swift in Sources */,
 				B7323D1529F6C33000ED67AD /* LanguageDropDown.swift in Sources */,
@@ -296,6 +311,7 @@
 				B7FC79E229F6B76D005BAD00 /* Colors.swift in Sources */,
 				B7323D1D29F6C40E00ED67AD /* TranslateScreen.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				B7323D2529F7E43200ED67AD /* TranslateTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
